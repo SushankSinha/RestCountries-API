@@ -1,14 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
 
-body {
-  background-color: #eee;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  display: grid;
-  width: 350px;
-  padding-top: 2%;
-  padding-left: 2%;
-}
 
 .height {
   height: 100px;
@@ -19,6 +10,8 @@ body {
   box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
   width: 290px;
   justify-content: center;
+  margin: auto;
+  padding: auto;
 }
 
 .search input {
@@ -26,6 +19,8 @@ body {
   text-indent: 25px;
   border: 2px solid #d6d4d4;
   width: 290px;
+  margin: auto;
+  padding: auto;
 }
 
 .search input:focus {
@@ -48,29 +43,45 @@ body {
   background: blue;
 }
 
-.container {
-  border: 5px solid black;
+.main {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
   width: 350px;
-  height: 650px;
-  background-image: url(weather-icons.jpg);
-  background-size: 320px 650px;
+  margin: 10px auto;
+  padding-bottom:10px;
 }
 
 .card {
   align-items: center;
   align-content: center;
+  margin: auto;
+  padding: auto;
 }
 .row {
+  width: 350px;
+  justify-content: center;
   align-items: center;
+  align-content: center;
 }
 
 button.btn.btn-primary {
   font-size: 15px;
 }
 
-.card-header {
+.first {
   font-weight: bold;
+  color: white;
+  background-color: black;
 }
 .btn{
        width: 250px;
+}
+
+.card-text{
+  font-weight: bold;
+}
+
+.cardBody{
+  text-align: center;
 }
